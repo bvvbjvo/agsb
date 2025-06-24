@@ -31,11 +31,11 @@ DEBUG_LOG = INSTALL_DIR / "python_debug.log"
 CUSTOM_DOMAIN_FILE = INSTALL_DIR / "custom_domain.txt" # 存储最终使用的域名
 
 # ====== 全局可配置参数（可直接在此处修改） ======
-USER_NAME  =  " longjipo "          #用户名
-UUID  =  " f7d21a87-b0a7-41e5-9c09-efecb71cd75b "                      # UUID，留空则自动生成
-PORT  =  48443                    # Vmess端口，留空或0则自动生成
-DOMAIN  =  " longjipo.lixio.dpdns.org "                    # 域名，留空则自动获取
-CF_TOKEN  =  " eyJhIjoiOTFmYzI1ZDViM2IxODU0OGM4YTA5MmNjYWNlMzU1ZmQiLCJ0IjoiYmZkZTYzMDEtOTcyMS00MDc5LThlMDgtY2EyZTYxNGZmNjIxIiwicyI6Ik0yRXpNakJqWkRjdE9HRTRPUzAwTTJJMUxUa3laVFV0TlRneE1qRXhaVEZtTmpGbSJ9 "                  # Cloudflare Token，留空则用Quick Tunnel
+USER_NAME = "longjipo"         #用户名
+UUID = "f7d21a87-b0a7-41e5-9c09-efecb71cd75b "                      # UUID，留空则自动生成
+PORT =  48443                   # Vmess端口，留空或0则自动生成
+DOMAIN = "longjipo.lixio.dpdns.org"                   # 域名，留空则自动获取
+CF_TOKEN = "eyJhIjoiOTFmYzI1ZDViM2IxODU0OGM4YTA5MmNjYWNlMzU1ZmQiLCJ0IjoiYmZkZTYzMDEtOTcyMS00MDc5LThlMDgtY2EyZTYxNGZmNjIxIiwicyI6Ik0yRXpNakJqWkRjdE9HRTRPUzAwTTJJMUxUa3laVFV0TlRneE1qRXhaVEZtTmpGbSJ9"                  # Cloudflare Token，留空则用Quick Tunnel
 # =========================================
 
 # 添加命令行参数解析
