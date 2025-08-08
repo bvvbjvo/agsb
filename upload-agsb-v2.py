@@ -33,8 +33,8 @@ CUSTOM_DOMAIN_FILE = INSTALL_DIR / "custom_domain.txt" # 存储最终使用的�
 # ====== 全局可配置参数（可直接在此处修改） ======
 USER_NAME = "lixio"         # 用户名
 UUID = "57751068-cef0-4241-b231-4eeb2e2b4797"                     # UUID，留空则自动生成
-PORT = 443                   # Vmess端口，留空或0则自动生成
-DOMAIN = "lixio.lixio.dpdns.org"                   # 域名，留空则自动获取
+PORT = 48443                   # Vmess端口，留空或0则自动生成
+DOMAIN = "7890.lixio.qzz.io"                   # 域名，留空则自动获取
 CF_TOKEN = "eyJhIjoiOTFmYzI1ZDViM2IxODU0OGM4YTA5MmNjYWNlMzU1ZmQiLCJ0IjoiNTdiYzlmMTMtNmVmMy00N2JhLWE5M2QtNWM3YjFlN2QxYzFhIiwicyI6Ik5UUmhNamt6WVdNdE9XTTJPQzAwTmpFMUxUazRZamd0WTJJeU9ETTBaV1ExTUdZMCJ9"                 # Cloudflare Token，留空则用Quick Tunnel
 # =========================================
 
